@@ -7,4 +7,4 @@ sudo bash nodesource_setup.sh
 sudo apt-get -y install nodejs
 
 # Install AWSCLI
-sudo apt install awscli
+sudo apt install awscli -y
