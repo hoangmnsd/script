@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "version: 2"
 # Install Npm - NodeJs
 sudo apt-get update
 #sudo apt-get -y install npm
