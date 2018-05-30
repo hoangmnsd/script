@@ -17,6 +17,6 @@ sudo rm -rf *
 cd /home/ubuntu/AWS_Demo/API
 sudo kill $(sudo lsof -t -i:3000)
 screen -dmS RunService
-echo "sleeping 10s"
+echo "sleeping"
 sleep 10
 screen -S RunService -p 0 -X stuff 'node server.js\n'
