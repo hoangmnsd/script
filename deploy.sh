@@ -1,5 +1,5 @@
 #!/bin/bash
-# Deploy App
+# Deploy App in PROD instance
 sudo systemctl stop apache2
 sudo chgrp -R www-data /var/www/html
 sudo find /var/www/html -type d -exec chmod g+rx {} +
