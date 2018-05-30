@@ -9,13 +9,13 @@ sudo cp -Rv * /var/www/html
 cd /var/www/html
 sudo rm -rf assets
 sudo mkdir assets
-cd /home/ubuntu//artifact-build-received/AWS_Demo/Angular/dist/assets
+cd /home/ubuntu/artifact-build-received/AWS_Demo/Angular/dist/assets
 sudo cp -Rv * /var/www/html/assets
 sudo systemctl start apache2
 cd /var/run/screen/S-ubuntu
 sudo rm -rf *
 mkdir API
-cd /var/lib/jenkins/workspace/freestyle-build-app-in-this-instance-medium/AWS_Demo/API/
+cd /home/ubuntu/API/
 sudo kill $(sudo lsof -t -i:3000)
 screen -dmS RunService
 echo "sleeping 10 2222222222 3333333333"

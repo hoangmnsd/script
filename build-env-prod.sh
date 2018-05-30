@@ -22,6 +22,6 @@ mysql --user="root" --password="1111" -e "commit"
 aws s3 cp s3://awscicd/ /home/ubuntu/ --recursive
 mysql -hlocalhost -uroot -p awsdb < Dump20180523.sql --password="1111"
 
-#cd /home/ubuntu/AWS_Demo/API/
-cd /var/lib/jenkins/workspace/freestyle-build-app-in-this-instance-medium/AWS_Demo/API/
+#Install package npm in API
+cd /home/ubuntu/API/
 sudo npm install
