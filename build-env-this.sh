@@ -27,13 +27,6 @@ sudo apt install awscli
 #git clone https://github.com/QuyetAQ/AWS_Demo.git
 #sudo cp -r /var/lib/jenkins/workspace/freestyle-build-env-in-this-instance-medium/AWS_Demo /home/ubuntu/
 
-# Install Package
-#cd /home/ubuntu/AWS_Demo/Angular/
-cd /var/lib/jenkins/workspace/freestyle-build-app-in-this-instance-medium/AWS_Demo/Angular/
-sudo npm install
-#cd /home/ubuntu/AWS_Demo/API/
-cd /var/lib/jenkins/workspace/freestyle-build-app-in-this-instance-medium/AWS_Demo/API/
-sudo npm install
 
 # Import database
 #cd /home/ubuntu/AWS_Demo
