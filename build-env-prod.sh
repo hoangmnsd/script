@@ -23,5 +23,7 @@ aws s3 cp s3://awscicd/ /home/ubuntu/ --recursive
 mysql -hlocalhost -uroot -p awsdb < Dump20180523.sql --password="1111"
 
 #Install package npm in API
+cd /home/ubuntu/
 cd /home/ubuntu/API/
+pwd
 sudo npm install
